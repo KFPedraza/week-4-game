@@ -1,0 +1,67 @@
+body {
+	background-color: #F3F99F;
+}
+
+#heading {
+	color: #ffdd4f;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #F57A97;
+	height: 85px;
+	padding: 22px;
+	margin: auto;
+	width: 400px;
+	margin-bottom: 30px;
+	margin-top: 45px;
+}
+
+#instructions {
+	font-family: 'Comfortaa', cursive;
+	font-size: 19px;
+	/*color: #F3F99F;*/
+	/*text-align: center;*/
+	line-height: 1.5;
+	margin-top: 30px;
+	padding: 20px;
+	background-color: #ADCDCA;
+}
+
+.picture {
+	width: 150px;
+	height: 150px;
+	padding: 15px;
+	margin-left: 65px;
+}
+
+#randomNumber {
+	clear: both;
+	font-family: 'Comfortaa', cursive;
+	font-size: 25px;
+	height: 120px;
+	width: 250px;
+}
+
+#playerScore, #wins, #losses {
+	font-family: 'Comfortaa', cursive;
+	font-size: 25px;
+	height: 120px;
+	width: 200px;
+}
+
+#wins {
+	float: left;
+}
+
+#playerScore {
+	clear: both;
+}
+
+#losses {
+	float: left;
+}
+
+#scores {
+	padding: 30px;
+}

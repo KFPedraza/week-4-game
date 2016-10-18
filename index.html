@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>We, Are the Crystal Gems</title>
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div class="row">
+
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4">
+		<h1 id="heading">Save the Day</h1>
+	</div>
+	<div class="col-sm-4"></div>
+
+</div>
+
+<div class="row">
+
+	<div class="col-sm-1"></div>
+
+	<div class="col-sm-3">
+		<div id="instructions">
+			You've been given a random number!<br><br>
+
+		Each crystal gem has a value.<br>
+		When you click on one, you add this value to your score.
+		The values are hidden until you click them.<br><br>
+
+		Your mission is to match this random number by adding gems together.
+		However, you will fail this mission if you exceed the random number.<br>
+		The mission will restart if you lose but each crystal gem will have a new value.<br><br>
+
+		Good luck!<br>
+		</div>
+	</div>
+
+	<div class="col-sm-1"></div>
+
+	<div class="col-sm-2">
+		<div class="gems">
+			<div id="pearl">
+				<img src="assets/images/pearl.png" alt="Pearl"  class="picture button">
+			</div>
+			<div id="rosequartz">
+				<img src="assets/images/rosequartz.png" alt="Rose Quartz" class="picture button">
+			</div>
+			<div id="amethyst">
+				<img src="assets/images/amethyst.png" alt="Amethyst"  class="picture button">
+			</div>
+			<div id="garnet">
+				<img src="assets/images/garnet.png" alt="Garnet"  class="picture button">
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-sm-1"></div>
+
+	<div class="col-sm-3" id="scores">
+		<div id="randomNumber"><br></div>
+		<div id="wins"><br></div>
+		<div id="playerScore"><br></div>
+		<div id="losses"><br></div>
+	</div>
+
+	<div class="col-sm-1">
+
+	</div>
+</div>
+
+
+	
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
